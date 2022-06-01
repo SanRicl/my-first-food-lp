@@ -1,0 +1,61 @@
+.menuContainer{
+    padding-top: 20%;
+    height: 100vh ;
+    background: rgb(238, 236, 236);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.headerMenu  h1, p{
+    padding-bottom: 20px;
+}
+
+.gridMenuContent{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) );
+    gap: 40px;
+   
+}
+
+.menuItem{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: white;
+}
+
+.menuItem img{
+    width: 100%;
+    height: 100%;
+}
+
+.menuItem p{
+    text-align: start;
+    padding: 5px 0;
+    font-size: 18px;
+    color: black;
+}
+
+
+/* =================== MEDIA QUERIES (medium devices) =================== */
+
+@media screen and (max-width: 1200px) {
+    .menuContainer {
+        height: 100%;
+    }
+
+    
+}
+
+/* =================== MEDIA QUERIES (small devices) =================== */
+
+@media screen and (max-width: 600px) {
+    .menuContainer {
+        height: 100%;
+    }
+
+
+   
+}

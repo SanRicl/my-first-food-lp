@@ -1,3 +1,10 @@
+MINHA PRIMEIRA LADING PAGE USANDO REACT. 
+
+A LP PODE SER VISUALIZADA NO LINK DISPONIVEL A SEGUIR:
+https://lively-kelpie-bcf888.netlify.app
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

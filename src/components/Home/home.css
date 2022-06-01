@@ -1,0 +1,59 @@
+.homeContainer {
+  height: 100vh;
+  background-image: url("../../assets/bg.jpg");
+  background-size: cover;
+  display: flex;
+}
+
+.homeInfo {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.homeInfo h1 {
+  padding-bottom: 20px;
+  font-size: 5em;
+  color: #fff;
+}
+
+.homeInfo p {
+  margin: auto;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.homeInfo a {
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+  background: crimson;
+  text-decoration: none;
+  color: white;
+}
+
+/* =================== MEDIA QUERIES (medium devices) =================== */
+
+@media screen and (max-width: 1024px) {
+  .homeInfo h1 {
+    font-size: 3.5em;
+  }
+
+  .homeInfo a {
+    width: 20%;
+  }
+}
+
+/* =================== MEDIA QUERIES (small devices) =================== */
+
+@media screen and (max-width: 600px) {
+  .homeInfo h1 {
+    font-size: 2.5em;
+  }
+  .homeInfo a {
+    width: 30%;
+  }
+}
