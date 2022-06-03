@@ -7,24 +7,29 @@ const Header = () => {
   const [showLinks, setShowLinks] = useState(false);
   const [activeNav, setActiveNav] = useState("#");
 
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('.headerContainer')
+    header.classList.toggle('sticky', window.scrollY > 0)
+  })
+
   return (
     <div className="headerContainer">
       <div className="headerInfos">
-        <div className="logo">Food.</div>
+        <div className="logo"><a href="#home">Food.</a></div>
         <div className="navContainer" id={showLinks ? "hidden" : ""}>
           <a
             href="#home"
             onClick={() => setActiveNav("#home")}
             className={activeNav === "#home" ? "active" : ""}
           >
-            Home
+            Inicio
           </a>
           <a
             href="#about"
             onClick={() => setActiveNav("#about")}
             className={activeNav === "#about" ? "active" : ""}
           >
-            About
+            Sobre
           </a>
           <a
             href="#menu"
@@ -38,21 +43,21 @@ const Header = () => {
             onClick={() => setActiveNav("#expert")}
             className={activeNav === "#expert" ? "active " : ""}
           >
-            Expert
+            Profissionais
           </a>
           <a
             href="#testimonials"
             onClick={() => setActiveNav("#testimonials")}
             className={activeNav === "#testimonials" ? "active" : ""}
           >
-            Testimonials
+            Depoimentos
           </a>
           <a
             href="#contact"
             onClick={() => setActiveNav("#contact")}
             className={activeNav === "#contact" ? "active" : ""}
           >
-            Contact
+            Contato
           </a>
         </div>
         <button onClick={() => setShowLinks(!showLinks)} className="menuBtn">

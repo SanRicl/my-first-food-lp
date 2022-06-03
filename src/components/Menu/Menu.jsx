@@ -10,7 +10,7 @@ const Menu = () => {
   return (
     <div className="menuContainer" id="menu">
       <div className="headerMenu">
-        <h1>Our Menu</h1>
+        <h1>Nosso Menu</h1>
         <p>Lorem ipsum dolor sit amet, consectetus adipisicing elit</p>
       </div>
       <div className="gridMenuContent">
@@ -18,41 +18,41 @@ const Menu = () => {
           <div className="itemImg">
             <img src={menu1} alt="" />
           </div>
-          <p>Special Salads</p>
+          <p>Saladas Especiais</p>
         </div>
 
         <div className="menuItem">
           <div className="itemImg">
             <img src={menu2} alt="" />
           </div>
-          <p>Special Soup</p>
+          <p>Sopas Especiais</p>
         </div>
 
         <div className="menuItem">
           <div className="itemImg">
             <img src={menu3} alt="" />
           </div>
-          <p>Special Pasta</p>
+          <p>Massas Especiais</p>
         </div>
 
         <div className="menuItem">
           <div className="itemImg">
             <img src={menu4} alt="" />
           </div>
-          <p>Special Salads</p>
+          <p>Saladas Especiais</p>
         </div>
 
         <div className="menuItem">
           <div className="itemImg">
             <img src={menu5} alt="" />
           </div>
-          <p>Special Soup</p>
+          <p>Sopas Especiais</p>
         </div>
         <div className="menuItem">
           <div className="itemImg">
             <img src={menu6} alt="" />
           </div>
-          <p>Special Pasta</p>
+          <p>Massas Especiais</p>
         </div>
       </div>
     </div>

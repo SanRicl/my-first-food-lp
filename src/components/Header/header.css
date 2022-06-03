@@ -3,11 +3,54 @@
   height: 50px;
   padding: 5px;
   position: fixed;
-  background: #fff;
+  background: transparent;
   font-size: 30px;
   font-weight: bold;
   z-index: 2;
+  color: #fff;
+  transition: all .5s ease;
+
 }
+
+.headerContainer .navContainer a{
+  color: white;
+}
+
+.headerContainer a.active{
+  background-color: crimson;
+  color: white;
+}
+
+.sticky {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  position: fixed;
+  background: #fff;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 2;
+  transition: all .5s ease;
+
+}
+
+.sticky .navContainer a{
+  color: black;
+}
+.sticky .logo a{
+  color: black;
+}
+.sticky a.active{
+  background-color: crimson;
+  color: white;
+}
+
+.logo a{
+  color: white;
+  text-decoration: none;
+}
+
 .menuBtn {
   display: none;
   width: 40px;
@@ -26,9 +69,7 @@
  
   padding: 10px 30px;
   text-decoration: none;
-  color: black;
   font-size: 15px;
-  
 }
 
 #hidden{
@@ -40,10 +81,7 @@
   border: none;
 }
 
-a.active{
-  background-color: crimson;
-  color: white;
-}
+
 
 /* =================== MEDIA QUERIES (medium devices) =================== */
 

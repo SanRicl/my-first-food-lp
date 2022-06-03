@@ -8,7 +8,7 @@ const Expert = () => {
   return (
     <div className='expertContainer' id='expert'>
       <div className="expertHeader">
-        <h1>Our Kitchen Expert</h1>
+        <h1>Nossos Profissionais de Cozinha</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
       <div className="expertGridContainer">
@@ -16,25 +16,25 @@ const Expert = () => {
           <div className="expertImg">
             <img src={expert1} alt="" />
           </div>
-          <p>Someone Famous</p>
+          <p>Alguem Famoso</p>
         </div>
         <div className="expertItem">
           <div className="expertImg">
             <img src={expert2} alt="" />
           </div>
-          <p>Someone Famous</p>
+          <p>Alguem Famoso</p>
         </div>
         <div className="expertItem">
           <div className="expertImg">
             <img src={expert3} alt="" />
           </div>
-          <p>Someone Famous</p>
+          <p>Alguem Famoso</p>
         </div>
         <div className="expertItem">
           <div className="expertImg">
             <img src={expert4} alt="" />
           </div>
-          <p>Someone Famous</p>
+          <p>Alguem Famoso</p>
         </div>
       </div>
     </div>

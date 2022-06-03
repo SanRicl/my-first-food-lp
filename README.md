@@ -1,7 +1,7 @@
 MINHA PRIMEIRA LADING PAGE USANDO REACT. 
 
 A LP PODE SER VISUALIZADA NO LINK DISPONIVEL A SEGUIR:
-https://lively-kelpie-bcf888.netlify.app
+https://tiny-gelato-36e67f.netlify.app/
 
 
 

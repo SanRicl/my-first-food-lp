@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <div className="testimonialsContainer" id="testimonials">
       <div className="testimonialsHeader">
-        <h1>They Said About Us</h1>
+        <h1>Depoimentos de Clientes</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
       <div className="gridTestimonialsContent">
@@ -22,7 +22,7 @@ const Testimonials = () => {
               Necessitatibus tempore tenetur iure nihil nemo deserunt quasi.
               Ipsa voluptates maxime, quod quisquam vitae expedita.
             </p>
-            <p>Someone Famous</p>
+            <p>Alguem famoso</p>
           </div>
         </div>
         <div className="testimonialsItem">
@@ -36,7 +36,7 @@ const Testimonials = () => {
               Necessitatibus tempore tenetur iure nihil nemo deserunt quasi.
               Ipsa voluptates maxime, quod quisquam vitae expedita.
             </p>
-            <p>Someone Famous</p>
+            <p>Alguem famoso</p>
           </div>
         </div>
         <div className="testimonialsItem">
@@ -50,7 +50,7 @@ const Testimonials = () => {
               Necessitatibus tempore tenetur iure nihil nemo deserunt quasi.
               Ipsa voluptates maxime, quod quisquam vitae expedita.
             </p>
-            <p>Someone Famous</p>
+            <p>Alguem famoso</p>
           </div>
         </div>
       </div>
